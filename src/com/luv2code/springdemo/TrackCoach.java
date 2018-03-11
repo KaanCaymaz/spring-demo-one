@@ -22,5 +22,13 @@ public class TrackCoach implements Coach {
 	public String getDailyFortune() {
 		return "Just do it:"+ fortuneneService.getFortune();
 	}
+	
+	public void myInitMethod() {
+		System.out.println("\nmyInitMethod: ");
+	}
+	
+	public void myDestroyMethod() {
+		System.out.println("\nmyDestroyMethod: ");
+	}
 
 }
